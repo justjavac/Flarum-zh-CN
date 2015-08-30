@@ -1,0 +1,26 @@
+{
+    "name": "zh-CN",
+    "title": "中文简体",
+    "description": "Flarum 简体中文语言包",
+    "keywords": ["localization"],
+    "version": "0.1.0",
+    "author": {
+        "name": "justjavac",
+        "email": "justjavac@gmail.com",
+        "homepage": "http://www.justjavac.com"
+    },
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0",
+        "flarum": ">0.1.0"
+    },
+    "support": {
+        "source": "https://github.com/justjavac/flarum-zh-CN",
+        "issues": "https://github.com/justjavac/flarum-zh-CN/issues"
+    },
+    "icon": {
+      "name": "globe",
+      "backgroundColor": "#3f51b5",
+      "color": "#fff"
+    }
+}
