@@ -6,7 +6,7 @@
 
 ## 包括
 
-此扩展包含了 Flarum 的核心意见一些官方扩展的汉化：
+此扩展包含了 Flarum 的核心，以及一些官方扩展的汉化：
 
 - [Flarum](https://github.com/flarum/core) 0.1.0-beta (Core)
 - [Likes](https://github.com/flarum/likes) 0.1.0-beta
