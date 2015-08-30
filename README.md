@@ -27,9 +27,9 @@
 
 2. 使用 [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) 客户端, 进入 Flarum 的根目录(此目录包含 *config.php* 文件)。
 
-3. 在这个目录中，你可以看到 **extensions/** 目录。进入此目录，创建一个 *zh-CN/* 目录。
+3. 在这个目录中，你可以看到 **extensions/** 目录。进入此目录，创建一个 **zh-CN/** 目录。
 
-4. 然后将解压的文件上传到 *zh-CN/* 目录中。
+4. 然后将解压的文件上传到 **zh-CN/** 目录中。
 
 以管理员身份登陆网站，进入管理后台。通过点击右上角的用户名，在弹出菜单中点击 **Administration** 链接。
 
