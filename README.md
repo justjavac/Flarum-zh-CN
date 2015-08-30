@@ -1,5 +1,7 @@
 # Flarum 中文简体（扩展）
 
+本扩展的语言文件由 [jsthon/Flarum-zh-CN](https://github.com/jsthon/Flarum-zh-CN) 提供。
+
 本地化扩展开发文档已经翻译完成：<http://justjavac.gitbooks.io/flarum/content/extend/localization.html>
 
 ## 包括
