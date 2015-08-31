@@ -6,7 +6,7 @@ This's ont part of [Flarum i18n](https://github.com/justjavac/flarum-i18n-zh)
 
 ### Include
 
-- [Flarum](https://github.com/flarum/core) (Core) 0.1.0-beta
+- [Flarum](https://github.com/flarum/core) 0.1.0-beta (Core)
 - [Likes](https://github.com/flarum/likes) 0.1.0-beta
 - [Lock](https://github.com/flarum/lock) 0.1.0-beta
 - [Mentions](https://github.com/flarum/mentions) 0.1.0-beta
