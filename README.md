@@ -1,12 +1,10 @@
-# Flarum 中文简体（扩展）
+# Simplified Chinese Extension for Flarum
 
-本扩展的语言文件由 [jsthon/Flarum-zh-CN](https://github.com/jsthon/Flarum-zh-CN) 提供。
+This's ont part of [Flarum i18n](https://github.com/justjavac/flarum-i18n-zh)
 
-本地化扩展开发文档已经翻译完成：<http://justjavac.gitbooks.io/flarum/content/extend/localization.html>
+[中文说明](README-zh_CN.md)
 
-## 包括
-
-此扩展包含了 Flarum 的核心，以及一些官方扩展的汉化：
+### Include
 
 - [Flarum](https://github.com/flarum/core) 0.1.0-beta (Core)
 - [Likes](https://github.com/flarum/likes) 0.1.0-beta
@@ -17,34 +15,28 @@
 - [Subscriptions](https://github.com/flarum/subscriptions) 0.1.0-beta
 - [Tags](https://github.com/flarum/tags) 0.1.0-beta
 
-## 文档
+## Documentation
 
-### 如何下载？
+### How to download?
 
-点击 GitHub 的 [Download ZIP](https://github.com/Flarum-Chinese/Flarum-zh-CN/archive/master.zip) 按钮。
+Click [on this link](https://github.com/Flarum-Chinese/Flarum-zh-CN/archive/master.zip) or on the **Download ZIP** button located in the right sidebar. 
 
-### 如何安装？
+### How to install?
 
-1. 解压下载完的文件。
+1. Extract the archive you just downloaded.
 
-2. 使用 [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol) 客户端, 进入 Flarum 的根目录(此目录包含 *config.php* 文件)。
+2. Using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), browse into your Flarum root (which contains the *config.php* file). You will see an *extensions/* directory. 
 
-3. 在这个目录中，你可以看到 **extensions/** 目录。进入此目录，创建一个 **zh-CN/** 目录。
+3. Inside this directory, create a *zh_CN/* directory. 
 
-4. 然后将解压的文件上传到 **zh-CN/** 目录中。
+4. Upload the content of the previous extracted archive inside the *zh_CN/* directory.
 
-以管理员身份登陆网站，进入管理后台。通过点击右上角的用户名，在弹出菜单中点击 **Administration** 链接。
+The extension is now uploaded to your server and your next step is to enable it. Log-in to your forum and click on your username located at the top right of the screen. You will see a pop-up. Click on the **Administration** link. Once in the administration page, click on **Extensions**. You will see a list of all your extensions. Note that the Simplified Chinese extension is the grey tinted one, with a white icon of the Earth and a blue background. Hover the extension and notice the dotted vertical menu. Click on that vertical menu and click on **Enable**.
 
-在左侧的导航中，点击 **Extensions** 按钮。这时你可以在右边看到刚才安装的扩展**中文简体**。
+Your extension is now enabled. Congratulations! You, and your users, can now select the language via a dropdown menu located in the header, at the right of the search box.
 
-点击**中文简体**右边，在弹出菜单中选择 **Enable**。
+Your extension files are now installed, but you have to force the cache of your forum to refresh. To do that, using [FTP](http://en.wikipedia.org/wiki/File_Transfer_Protocol), locate the **assets/** directory. Inside the directory, delete the **forum-zh_CN-\*.js** and **admin-zh_CN-\*.js** files. You can now enjoy the latest improvements and fixes of the updated extension!
 
-**中文简体**语言包已经成功安装。
+### License
 
-### FAQ
-
-语言包如果没有生效，进入网站根目录，打开 **assets** 目录，将里面的文件删除（**不要**删除 avatars 和 fonts）。
-
-## License
-
-本语言包基于 [MIT License](](https://github.com/maelsoucaze/flarum/blob/master/LICENSE)) 发布。
+Released under the MIT License. Please see the [LICENSE](LICENSE) file.
