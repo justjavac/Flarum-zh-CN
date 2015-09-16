@@ -1,10 +1,12 @@
 tags:
+  tags: 节点
   discussion_tagged_post:
     one: "{username} {action} 分类"
     other: "{username} {action} 分类"
   added_tags: "加入分类 {tags}"
   removed_tags: "移除分类 {tags}"
   tag_new_discussion_title: 选择分类
+  tag_new_discussion_link: 选择节点
   edit_discussion_tags_title: "编辑 {title} 的分类"
   edit_discussion_tags_link: 编辑分类
   choose_primary_tags:
